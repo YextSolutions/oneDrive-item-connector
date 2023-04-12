@@ -53,17 +53,17 @@
       },
       {
         "type": "JSON",
-        "header": "Last Updated by Name",
+        "header": "Last Modified By Name",
         "path": "lastModifiedBy.user.displayName"
       },
       {
         "type": "JSON",
-        "header": "Last Updated Email",
+        "header": "Last Modified By Email",
         "path": "lastModifiedBy.user.email"
       },
       {
         "type": "JSON",
-        "header": "Last Updated",
+        "header": "Last Modified Date",
         "path": "lastModifiedDateTime"
       }
     ]
@@ -71,8 +71,8 @@
   "transforms": [
     {
       "extractText": {
-        "inputHeader": "Last Updated",
-        "newColumnHeader": "Last Updated - Formatted",
+        "inputHeader": "Last Modified Date",
+        "newColumnHeader": "Last Modified Date - Formatted",
         "extractOperation": "ALL_TEXT_BEFORE",
         "extractFrom": "FIRST_INSTANCE_MATCHING_TEXT",
         "valueToFind": {
@@ -112,7 +112,7 @@
       "clearValueIfBlank": false
     },
     {
-      "header": "Last Updated Email",
+      "header": "Last Modified Date Email",
       "field": "oneDrive_lastModifiedByEmail",
       "subfieldPath": [],
       "clearValueIfBlank": false
@@ -130,6 +130,18 @@
       "clearValueIfBlank": false
     },
     {
+      "header": "Created Date - Formatted",
+      "field": "oneDrive_createdDate",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Last Modified Date - Formatted",
+      "field": "oneDrive_lastModifiedDate",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
       "header": "File",
       "field": "oneDrive_file",
       "subfieldPath": [
@@ -140,7 +152,7 @@
       "clearValueIfBlank": false
     },
     {
-      "header": "Last Updated by Name",
+      "header": "Last Modified By Name",
       "field": "oneDrive_lastModifiedByName",
       "subfieldPath": [],
       "clearValueIfBlank": false

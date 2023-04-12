@@ -1,12 +1,12 @@
 {
-  "$id": "oneDrive_OneDriveDriveID",
+  "$id": "oneDrive_ItemID",
   "$schema": "https://schema.yext.com/config/km/connector/v3",
-  "displayName": "Get OneDrive Drive ID",
+  "displayName": "Get OneDrive Item ID",
   "source": {
     "sourceConfig": {
       "apiPullConfig": {
         "requestType": "GET",
-        "url": "https://graph.microsoft.com/v1.0/me/drives",
+        "url": "https://graph.microsoft.com/v1.0/me/drive/root/children",
         "authentication": {
           "oauth": {
             "linkedAccount": "${{microsoftLinkedAccount}}"
@@ -25,12 +25,12 @@
     "selectors": [
       {
         "type": "JSON",
-        "header": "Drive Name",
+        "header": "Item Name",
         "path": "name"
       },
       {
         "type": "JSON",
-        "header": "Drive ID",
+        "header": "Item ID",
         "path": "id"
       }
     ]
