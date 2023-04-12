@@ -112,7 +112,7 @@
       "clearValueIfBlank": false
     },
     {
-      "header": "Last Modified Date Email",
+      "header": "Last Modified By Email",
       "field": "oneDrive_lastModifiedByEmail",
       "subfieldPath": [],
       "clearValueIfBlank": false
