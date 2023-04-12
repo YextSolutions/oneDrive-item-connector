@@ -1,0 +1,53 @@
+{
+  "$id": "oneDrive_file",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "oneDrive_file",
+  "displayName": "File",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "landingPageUrl"
+        },
+        {
+          "id": "oneDrive_creatorEmail"
+        },
+        {
+          "id": "oneDrive_creatorName"
+        },
+        {
+          "id": "oneDrive_lastModifiedByEmail"
+        },
+        {
+          "id": "oneDrive_lastModifiedByName"
+        }
+      ]
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        }
+      ]
+    }
+  ]
+}

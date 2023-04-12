@@ -1,0 +1,19 @@
+{
+  "$id": "oneDrive_file.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "File-default",
+  "entityType": "oneDrive_file",
+  "fields": [
+    "oneDrive_createdDate",
+    "oneDrive_creatorEmail",
+    "oneDrive_creatorName",
+    "oneDrive_file",
+    "oneDrive_lastModifiedByEmail",
+    "oneDrive_lastModifiedByName",
+    "oneDrive_lastModifiedDate",
+    "externalArticlePostDate",
+    "externalArticleUpdateDate",
+    "landingPageUrl"
+  ],
+  "required": []
+}
