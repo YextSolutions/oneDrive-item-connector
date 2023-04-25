@@ -13,7 +13,9 @@
     "oneDrive_lastModifiedDate",
     "externalArticlePostDate",
     "externalArticleUpdateDate",
-    "landingPageUrl"
+    "landingPageUrl",
+    "externalAuthorizationSource",
+    "externalAuthorizedIdentities"
   ],
   "required": []
 }

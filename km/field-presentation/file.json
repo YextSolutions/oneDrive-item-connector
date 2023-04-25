@@ -34,6 +34,15 @@
         },
         {
           "id": "oneDrive_lastModifiedByName"
+        },
+        {
+          "id": "oneDrive_file"
+        },
+        {
+          "id": "externalAuthorizationSource"
+        },
+        {
+          "id": "externalAuthorizedIdentities"
         }
       ]
     },
