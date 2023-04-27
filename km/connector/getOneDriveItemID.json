@@ -32,6 +32,11 @@
         "type": "JSON",
         "header": "Item ID",
         "path": "id"
+      },
+      {
+        "type": "JSON",
+        "header": "Web URL",
+        "path": "webUrl"
       }
     ]
   },
